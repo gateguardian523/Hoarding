@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [ "1.20.1", "workflow" ]
+    branches: [ "1.20.1" ]
     paths:
       - 'src/**'
       - 'gradle/**'
@@ -11,7 +11,7 @@ on:
       - '.github/workflows/**'
       - '.github/actions/**'
   pull_request:
-    branches: [ "1.20.1", "workflow" ]
+    branches: [ "1.20.1" ]
 
 concurrency:
   group: build-${{ github.ref }}
