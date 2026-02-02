@@ -32,7 +32,7 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Build with Gradle
-        run: gradlew build --no-daemon
+        run: ./gradlew build --no-daemon
 
       - name: Get Mod Information
         id: info
