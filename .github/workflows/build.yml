@@ -46,7 +46,7 @@ jobs:
       - name: Upload Artifacts
         uses: actions/upload-artifact@v6
         with:
-          name: hoarding-${{ steps.version.outputs.mc_version }}-${{ steps.version.outputs.mod_version }}+${{ steps.suffix.outputs.sha_short }}
+          name: hoarding-${{ steps.info.outputs.mc_version }}-${{ steps.info.outputs.mod_version }}+${{ steps.info.outputs.sha_short }}
           path: build/libs/*.jar
           if-no-files-found: error
           retention-days: 7
