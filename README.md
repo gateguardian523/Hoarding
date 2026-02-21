@@ -1,5 +1,7 @@
 # Hoarding (NeoForge 1.21.1)
 
+[English](./README_EN.md) | 简体中文
+
 Forge 1.20.1 版本的 NeoForge 1.21.1 移植版。
 
 ## 设计思路
@@ -14,8 +16,8 @@ Forge 1.20.1 版本的 NeoForge 1.21.1 移植版。
 
 ## 安装
 
-1. 下载 [Releases](https://github.com/3453890470/Hoarding) 中的 .jar
-2. 放进 `mods` 文件夹
+1. 下载 [Releases](https://github.com/3453890470/Hoarding/releases) 中的 .jar
+2. 扔进 `mods` 文件夹
 3. 启动 NeoForge 1.21.1
 
 ## 模组整合
